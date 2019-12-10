@@ -1,7 +1,18 @@
 # ML-Part-of-speech-tagging
 Implementing the hidden markov model using viterbi algorithm
 
-##List of functions
+# How to run the code
+Download Test.py and Functions.py and ensure that both files are in the same folder. The list of functions implemented in Functions.py are mentioned below.
+Open Test.py and edit the first 4 lines to your respective paths. All parts run on the assumption that we are taking the file to train data is called "train" and file to test our code is "dev.in"
+
+For part5, please scroll to the bottom in Test.py to edit the number of epochs and the learning rate. Currently it is set to 10 and 0.0005.
+
+Run Test.py to get results for parts2-5.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+List of functions
 1) loadfile(path)   		      :   reads the file in path and split them into words and labels
 
 2) smooth(data,k)   		      :   takes in the dataset as data and threshold as k. If a word
